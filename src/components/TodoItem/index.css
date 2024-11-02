@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.todo-item-container {
+}
+
+.todo-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.todo-item-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+}
+
+.delete-button {
+  font-family: 'Roboto';
+  font-size: 18px;
+  background-color: #ffffff;
+  color: #ff0b37;
+  border: solid 1px #ff0b37;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .todo-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .todo-item-title {
+    font-size: 32px;
+  }
+
+  .delete-button {
+    font-size: 24px;
+    margin: 0px 30px;
+  }
+}

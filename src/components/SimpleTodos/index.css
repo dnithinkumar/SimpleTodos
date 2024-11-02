@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.todo-bg-container {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.todo-card {
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: bold;
+  color: #ff8542;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.todo-item-container {
+  list-style-type: none;
+  padding-left: none;
+}
+
+
+@media (min-width: 768px) {
+
+  .heading {
+    font-size: 48px;
+  }
+
+}
